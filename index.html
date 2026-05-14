@@ -14,7 +14,6 @@
         <a href="services.html">Services</a>
         <a href="team.html">Our Team</a>
         <a href="contact.html">Contact</a>
-        <button class="button voice-button" type="button" id="open-voice-demo">AI Voice</button>
       </nav>
     </div>
   </header>
@@ -92,41 +91,10 @@
   src="https://new-hf.lovable.app/widget.js"
   data-label="Free quote with AI SOW"
   data-accent="#f97316"
-  data-position="bottom-right"
+  data-position="Top-right"
   defer
 ></script>
 
   <script src="js/content.js"></script>
-  <script src="js/ai-config.js"></script>
-  <script src="js/voice-assistant.js"></script>
-  <div class="voice-demo-overlay" id="voice-demo-overlay" aria-hidden="true">
-    <div class="voice-demo-modal" role="dialog" aria-modal="true" aria-labelledby="voice-demo-title">
-      <div class="voice-demo-header">
-        <div>
-          <p class="eyebrow">AI Voice Demo</p>
-          <h2 id="voice-demo-title">Customer Service Assistant</h2>
-        </div>
-        <button class="close-button" id="close-voice-demo" aria-label="Close voice assistant">×</button>
-      </div>
-      <div class="voice-demo-body">
-        <section class="voice-demo-panel">
-          <div class="voice-demo-status" id="voice-demo-status">Demo mode: voice + chat interface placeholder.</div>
-          <div class="voice-demo-transcript" id="voice-demo-transcript"></div>
-          <div class="voice-demo-actions">
-            <button class="button secondary" type="button" id="voice-demo-start">Start voice call</button>
-            <button class="button secondary" type="button" id="voice-demo-stop" disabled>End voice call</button>
-          </div>
-        </section>
-        <aside class="voice-demo-suggestions">
-          <h3>Try one of these</h3>
-          <button type="button" class="suggestion-button">Schedule an appointment</button>
-          <button type="button" class="suggestion-button">Explain your services</button>
-          <button type="button" class="suggestion-button">Emergency repair help</button>
-          <button type="button" class="suggestion-button">Ask about pricing</button>
-        </aside>
-      </div>
-      <p class="muted voice-demo-note">This is a demo assistant window. Actual phone webhook and number integration will be added later.</p>
-    </div>
-  </div>
 </body>
 </html>
