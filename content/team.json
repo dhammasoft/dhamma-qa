@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Sam Harris",
+    "role": "Lead Technician",
+    "bio": "Expert HVAC technician with 15 years of experience in installation and repair."
+  },
+  {
+    "name": "Leela Parker",
+    "role": "Service Manager",
+    "bio": "Customer-first coordinator who ensures fast, reliable service."
+  },
+  {
+    "name": "Tony Reed",
+    "role": "Indoor Air Specialist",
+    "bio": "Focused on air quality, duct service, and smart thermostat solutions."
+  }
+]

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Team | Dhamma QA HVAC</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Dhamma QA HVAC</a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <button class="button voice-button" type="button" id="open-voice-demo">AI Voice</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Meet Our Team</h1>
+        <p>Experienced HVAC technicians and support staff serving your comfort needs.</p>
+      </div>
+    </section>
+
+    <section class="content-block bg-light">
+      <div class="container">
+        <div id="team-list" class="grid-3"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Dhamma QA HVAC. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/content.js"></script>
+  <script src="js/ai-config.js"></script>
+  <script src="js/voice-assistant.js"></script>
+  <div class="voice-demo-overlay" id="voice-demo-overlay" aria-hidden="true">
+    <div class="voice-demo-modal" role="dialog" aria-modal="true" aria-labelledby="voice-demo-title">
+      <div class="voice-demo-header">
+        <div>
+          <p class="eyebrow">AI Voice Demo</p>
+          <h2 id="voice-demo-title">Customer Service Assistant</h2>
+        </div>
+        <button class="close-button" id="close-voice-demo" aria-label="Close voice assistant">×</button>
+      </div>
+      <div class="voice-demo-body">
+        <section class="voice-demo-panel">
+          <div class="voice-demo-status" id="voice-demo-status">Demo mode: voice + chat interface placeholder.</div>
+          <div class="voice-demo-transcript" id="voice-demo-transcript"></div>
+          <div class="voice-demo-actions">
+            <button class="button secondary" type="button" id="voice-demo-start">Start voice call</button>
+            <button class="button secondary" type="button" id="voice-demo-stop" disabled>End voice call</button>
+          </div>
+        </section>
+        <aside class="voice-demo-suggestions">
+          <h3>Try one of these</h3>
+          <button type="button" class="suggestion-button">Schedule an appointment</button>
+          <button type="button" class="suggestion-button">Explain your services</button>
+          <button type="button" class="suggestion-button">Emergency repair help</button>
+          <button type="button" class="suggestion-button">Ask about pricing</button>
+        </aside>
+      </div>
+      <p class="muted voice-demo-note">This is a demo assistant window. Actual phone webhook and number integration will be added later.</p>
+    </div>
+  </div>
+</body>
+</html>
